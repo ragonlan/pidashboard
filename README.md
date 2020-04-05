@@ -4,7 +4,7 @@ Grafana dasborad designed for Raspberry pi Systems
 Based in Telegraf: system dashboardby Lex Rivera: https://grafana.com/grafana/dashboards/928
 
 Telegraf config:
-
+```
 [[inputs.disk]]
   percpu = true
   totalcpu = true
@@ -67,4 +67,4 @@ Telegraf config:
   commands = [ "python3 /media/pi/f9fb5995-3bd5-4ac0-859a-aa5bf467905d/opt/pidata/throttling.py"]
   name_override = "throttling"
   data_format = "json"
-
+```
